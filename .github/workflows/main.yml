@@ -12,8 +12,8 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: ftpupload.net
-        username: epiz_33124908
+        username: epiz_33115261
         password: ${{ secrets.password }}
         protocol: ftps
         port: 21 # todo replace with your web hosts ftps port
-        server-dir: yodhavu.epizy.com/htdocs/far/
+        server-dir: /htdocs/far/
